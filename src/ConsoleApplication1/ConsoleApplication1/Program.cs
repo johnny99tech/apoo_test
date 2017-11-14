@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConsoleApplication1
 {
-    class Program
+    public class Program
     {
         public Program() { }
 
@@ -111,7 +111,15 @@ namespace ConsoleApplication1
         };
         public string getuf(int uf)
         {
-            return ufs[uf];
+            if (uf > 10)
+            {
+                throw new IndexOutOfRangeException();
+                return "";
+            }
+            else
+            {
+                return ufs[uf];
+            }
         }
     }
 }

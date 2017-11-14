@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c295f9b0-7830-4281-877e-338c7fd8a9cc" name="20141011110131@CNATBRG015FHHQ 2017-11-13 15:39:33" runUser="IFRN\20141011110131" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e12647eb-54e6-408b-b050-a25dea90be98">
+    <Deployment runDeploymentRoot="20141011110131_CNATBRG015FHHQ 2017-11-13 15_39_33">
+      <DeploymentItem filename="C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CpfApi\bin\Debug\CpfApi.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-11-13T15:39:33.2331409-03:00" queuing="2017-11-13T15:39:33.9671409-03:00" start="2017-11-13T15:39:34.0031409-03:00" finish="2017-11-13T15:40:01.7821409-03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="CNATBRG015FHHQ" outcome="Error" timestamp="2017-11-13T15:40:01.7811409-03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="getufTest1" storage="c:\users\20141011110131\downloads\apoo_test-master\apoo_test-master\src\consoleapplication1\cfapitest\bin\debug\cfapitest.dll" id="d1989d6d-13df-3bcf-8231-08988a9447a8">
+      <Execution id="555f00fc-348d-4946-9899-bdf8f0cdac55" />
+      <TestMethod codeBase="C:/Users/20141011110131/Downloads/apoo_test-master/apoo_test-master/src/ConsoleApplication1/CfapiTest/bin/Debug/CfapiTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CpfApi.ufTest, CfapiTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getufTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d1989d6d-13df-3bcf-8231-08988a9447a8" executionId="555f00fc-348d-4946-9899-bdf8f0cdac55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="555f00fc-348d-4946-9899-bdf8f0cdac55" testId="d1989d6d-13df-3bcf-8231-08988a9447a8" testName="getufTest1" computerName="CNATBRG015FHHQ" duration="00:00:27.7320000" startTime="2017-11-13T15:39:34.0501409-03:00" endTime="2017-11-13T15:40:01.7821409-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="555f00fc-348d-4946-9899-bdf8f0cdac55">
+    </UnitTestResult>
+  </Results>
+</TestRun>

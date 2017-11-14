@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="92fb32ef-f54a-4581-ab57-7deba6c5e331" name="20141011110131@CNATBRG015FHHQ 2017-11-13 15:41:03" runUser="IFRN\20141011110131" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="39427fac-ce3e-4d6a-b288-91580fee0055">
+    <Deployment runDeploymentRoot="20141011110131_CNATBRG015FHHQ 2017-11-13 15_41_03">
+      <DeploymentItem filename="C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CpfApi\bin\Debug\CpfApi.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-11-13T15:41:03.7611409-03:00" queuing="2017-11-13T15:41:04.0331409-03:00" start="2017-11-13T15:41:04.1441409-03:00" finish="2017-11-13T15:41:04.5311409-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="getufTest2" storage="c:\users\20141011110131\downloads\apoo_test-master\apoo_test-master\src\consoleapplication1\cfapitest\bin\debug\cfapitest.dll" id="a02c7998-0a4b-4d2e-bf41-f2a91293719e">
+      <Execution id="886b5be1-fdf3-4643-b5d7-79ab0e59cad0" />
+      <TestMethod codeBase="C:/Users/20141011110131/Downloads/apoo_test-master/apoo_test-master/src/ConsoleApplication1/CfapiTest/bin/Debug/CfapiTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CpfApi.ufTest, CfapiTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getufTest2" />
+    </UnitTest>
+    <UnitTest name="getufTest1" storage="c:\users\20141011110131\downloads\apoo_test-master\apoo_test-master\src\consoleapplication1\cfapitest\bin\debug\cfapitest.dll" id="d1989d6d-13df-3bcf-8231-08988a9447a8">
+      <Execution id="8b858539-b28d-4cd3-8673-9ad969cf0539" />
+      <TestMethod codeBase="C:/Users/20141011110131/Downloads/apoo_test-master/apoo_test-master/src/ConsoleApplication1/CfapiTest/bin/Debug/CfapiTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CpfApi.ufTest, CfapiTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getufTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a02c7998-0a4b-4d2e-bf41-f2a91293719e" executionId="886b5be1-fdf3-4643-b5d7-79ab0e59cad0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1989d6d-13df-3bcf-8231-08988a9447a8" executionId="8b858539-b28d-4cd3-8673-9ad969cf0539" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="886b5be1-fdf3-4643-b5d7-79ab0e59cad0" testId="a02c7998-0a4b-4d2e-bf41-f2a91293719e" testName="getufTest2" computerName="CNATBRG015FHHQ" duration="00:00:00.0456691" startTime="2017-11-13T15:41:04.1611409-03:00" endTime="2017-11-13T15:41:04.4891409-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="886b5be1-fdf3-4643-b5d7-79ab0e59cad0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CpfApi.ufTest.getufTest2 threw exception: 
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.</Message>
+          <StackTrace>    em CpfApi.uf.getuf(Int32 uf) na C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CpfApi\uf.cs:linha 25
+   em CpfApi.ufTest.getufTest2() na C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CfapiTest\UnitTest1.cs:linha 24
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b858539-b28d-4cd3-8673-9ad969cf0539" testId="d1989d6d-13df-3bcf-8231-08988a9447a8" testName="getufTest1" computerName="CNATBRG015FHHQ" duration="00:00:00.0026768" startTime="2017-11-13T15:41:04.4971409-03:00" endTime="2017-11-13T15:41:04.5091409-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b858539-b28d-4cd3-8673-9ad969cf0539">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CpfApi.ufTest.getufTest1 threw exception: 
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.</Message>
+          <StackTrace>    em CpfApi.uf.getuf(Int32 uf) na C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CpfApi\uf.cs:linha 25
+   em CpfApi.ufTest.getufTest1() na C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CfapiTest\UnitTest1.cs:linha 16
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

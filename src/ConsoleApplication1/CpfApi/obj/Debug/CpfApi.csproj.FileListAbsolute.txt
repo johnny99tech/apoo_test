@@ -1,0 +1,4 @@
+C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CpfApi\bin\Debug\CpfApi.dll
+C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CpfApi\bin\Debug\CpfApi.pdb
+C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CpfApi\obj\Debug\CpfApi.dll
+C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CpfApi\obj\Debug\CpfApi.pdb

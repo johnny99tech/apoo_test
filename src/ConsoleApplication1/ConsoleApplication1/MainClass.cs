@@ -46,17 +46,11 @@ namespace ConsoleApplication1
                     Console.WriteLine("9 para " + ufs.getuf(8));
                     Console.WriteLine("10 para " + ufs.getuf(9));
                     int uf = Convert.ToInt32(Console.ReadLine());
-
-                    if (uf > 10)
-                    {
-                        Console.WriteLine("Escolha uma uf válida!");
-                        //     break;
+                    if (uf > 10) {
+                        ufs.getuf(uf);
                     }
-                    else { Console.WriteLine("CPF gerado: " + p.gerarcpf(uf)); }
+                    Console.WriteLine("CPF gerado: " + p.gerarcpf(uf));
                 }
-
-                    //Console.WriteLine("CPF gerado: " + p.gerarcpf(uf));
-            //}
                 else if(opcao > 2){
                     Console.WriteLine("Escolha uma opção válida!");
                 }

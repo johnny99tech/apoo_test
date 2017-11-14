@@ -1,0 +1,7 @@
+C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CfapiTest\obj\Debug\CfapiTest.dll
+C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CfapiTest\obj\Debug\CfapiTest.pdb
+C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CfapiTest\bin\Debug\CfapiTest.dll
+C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CfapiTest\bin\Debug\CfapiTest.pdb
+C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CfapiTest\bin\Debug\CpfApi.dll
+C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CfapiTest\bin\Debug\CpfApi.pdb
+C:\Users\20141011110131\Downloads\apoo_test-master\apoo_test-master\src\ConsoleApplication1\CfapiTest\obj\Debug\CpfapiTest.csprojResolveAssemblyReference.cache
