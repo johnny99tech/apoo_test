@@ -35,5 +35,14 @@ namespace CpfApi
         
         //TEST GERARCPF()
         
+        [ExpectedException(typeof(IndexOutOfRangeException))]
+        public void gerarcpfTest()
+        {
+            Program program = new Program();
+            if(int x > 10){
+                Program.gerarcpf(x);
+            }
+        }
+        
     }
 }
