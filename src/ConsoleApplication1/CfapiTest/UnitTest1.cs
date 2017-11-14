@@ -9,6 +9,10 @@ namespace CpfApi
     [TestClass]
     public class ufTest
     {
+        /*falta: test validarcfp(), gerarcpf e repetir test UFS*/
+        
+        //TEST UF
+        //test exception
         [TestMethod]
         [ExpectedException(typeof(IndexOutOfRangeException))]
         public void getufTest1()
@@ -24,6 +28,12 @@ namespace CpfApi
             string UF = ufs.getuf(0);
             Assert.AreEqual("DF, GO, MS, TO", UF);
             Assert.AreNotEqual("PA, AM, AC, AP, RR, RO", UF);
-        }
+        }//repetir para todas as ufs
+        
+        //TEST VALIDARCPF()
+        
+        
+        //TEST GERARCPF()
+        
     }
 }
