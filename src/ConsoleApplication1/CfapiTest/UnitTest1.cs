@@ -35,8 +35,8 @@ namespace CpfApi
         public void validarcpfTest()
         {
             Program program = new Program();
-            if(int x > 10){
-                Program.validarcpf(x);
+            if(string cpf > 11){
+                Program.validarcpf(cpf);
             }
         }
         
