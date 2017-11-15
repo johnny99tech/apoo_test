@@ -31,7 +31,14 @@ namespace CpfApi
         }//repetir para todas as ufs
         
         //TEST VALIDARCPF()
-        
+        [ExpectedException(typeof(IndexOutOfRangeException))]
+        public void validarcpfTest()
+        {
+            Program program = new Program();
+            if(int x > 10){
+                Program.validarcpf(x);
+            }
+        }
         
         //TEST GERARCPF()
         
